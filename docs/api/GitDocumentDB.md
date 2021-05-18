@@ -1,9 +1,12 @@
 ---
 sidebar_position: 2
 ---
+
 # GitDocumentDB Class
 
 GitDocumentDB class provides document database APIs to manage Git repository.
+
+🧰[spec](https://github.com/sosuisen/git-documentdb/blob/doc-v1.0/docs-api/git-documentdb.gitdocumentdb.md)
 
 ## Create or open database
 
