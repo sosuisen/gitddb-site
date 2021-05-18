@@ -10,6 +10,4 @@ tags: [greetings]
 
 Welcome to GitDocumentDB blog. 
 
-Feel free to play around and edit this post as much you like.
-
 In this blog, I will write about the GitDocumentDB technology and its release.
