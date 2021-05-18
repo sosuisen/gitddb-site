@@ -19,3 +19,9 @@ Use GitDocumentDB to ...
 :dromedary_camel: Travel history of database snapshots.
 
 You do not need knowledge of Git to start. However, you make the most of GitDocumentDB if you understand Git.
+
+# Next steps
+
+- Go to a [Tutorial](/docs/tutorial/install) to learn GitDDB step by step.
+
+- [Clone the GitDocumentDB repository](https://github.com/sosuisen/git-documentdb), and run examples in [examples directory](https://github.com/sosuisen/git-documentdb/tree/main/examples).
