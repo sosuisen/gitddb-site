@@ -86,7 +86,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Hidekazu Kubota.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Hidekazu Kubota`,
     },
   },
   presets: [
