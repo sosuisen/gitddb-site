@@ -48,7 +48,7 @@ Remove a document
 
 ### put(jsonDoc, options), put(id, document, options)
 
-Insert a document if not exists, otherwise update it.
+Insert a document if not exists. Otherwise, update it.
 
 ### remove(id, options), remove(jsonDoc, options)
 
@@ -99,7 +99,7 @@ Get remote URLs
 
 Get a synchronizer
 
-## unregisterRemote(remoteURL)
+### unregisterRemote(remoteURL)
 
 Stop and unregister remote synchronization
 

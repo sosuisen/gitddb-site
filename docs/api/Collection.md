@@ -33,7 +33,7 @@ Remove a document
 
 ### put(jsonDoc, options), put(_id, document, options)
 
-Add a document
+Insert a document if not exists. Otherwise, update it.
 
 ### remove(id, options), remove(jsonDoc, options)
 
