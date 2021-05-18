@@ -8,28 +8,29 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Manage Git repository by DocumentDB API. <br />
+      You can store JSON or any documents in the Git repository.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Fully Automated',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Automated synchronization and conflict resolution with a remote Git repository (GitHub).<br />
+      No need to resolve conflicts manually.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Git',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Interoperability with other Git tools.<br />
+      CI/CD through GitHub.<br />
+      Get past revisions.
       </>
     ),
   },
