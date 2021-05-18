@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: 'Easy to Use',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    imgPath: '../../static/img/easy_to_use.png',
+    imgPath: '/img/easy_to_use.png',
     description: (
       <>
       Manage Git repository by DocumentDB API. <br />
@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'Fully Automated',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    imgPath: '../../static/img/fully_automated.png',
+    imgPath: '/img/fully_automated.png',
     description: (
       <>
       Automated synchronization and conflict resolution with a remote Git repository (GitHub).<br />
@@ -28,7 +28,7 @@ const FeatureList = [
   {
     title: 'Powered by Git',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    imgPath: '../../static/img/powered_by_git.png',
+    imgPath: '/img/powered_by_git.png',
     description: (
       <>
       Interoperability with other Git tools.<br />
