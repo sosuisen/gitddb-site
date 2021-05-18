@@ -97,13 +97,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sosuisen/gitddb-site/edit/main/website/',
+            'https://github.com/sosuisen/gitddb-site/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sosuisen/gitddb-site/edit/main/website/blog/',
+            'https://github.com/sosuisen/gitddb-site/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
