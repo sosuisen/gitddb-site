@@ -7,6 +7,15 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-color-primary:#54c7ec;
+ --ifm-color-primary-dark:#4cb3d4;
+ --ifm-color-primary-darker:#47a9c9;
+ --ifm-color-primary-darkest:#3b8ba5;
+ --ifm-color-primary-light:#6ecfef;
+ --ifm-color-primary-lighter:#87d8f2;
+ --ifm-color-primary-lightest:#aae3f6;
+
+  /* Default is grern
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -15,7 +24,67 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  */
 }
+
+/**
+ * Color examples from Infima
+ https://infima.dev/docs/utilities/colors
+
+ Blue 
+ --ifm-color-primary:#3578e5;
+ --ifm-color-primary-dark:#306cce;
+ --ifm-color-primary-darker:#2d66c3;
+ --ifm-color-primary-darkest:#2554a0;
+ --ifm-color-primary-light:#538ce9;
+ --ifm-color-primary-lighter:#72a1ed;
+ --ifm-color-primary-lightest:#9abcf2;
+
+ Gray
+ --ifm-color-primary:#ebedf0;
+ --ifm-color-primary-dark:#d4d5d8;
+ --ifm-color-primary-darker:#c8c9cc;
+ --ifm-color-primary-darkest:#a4a6a8;
+ --ifm-color-primary-light:#eef0f2;
+ --ifm-color-primary-lighter:#f1f2f5;
+ --ifm-color-primary-lightest:#f5f6f8;
+
+ Green
+ --ifm-color-primary:#00a400;
+ --ifm-color-primary-dark:#009400;
+ --ifm-color-primary-darker:#008b00;
+ --ifm-color-primary-darkest:#007300;
+ --ifm-color-primary-light:#26b226;
+ --ifm-color-primary-lighter:#4dbf4d;
+ --ifm-color-primary-lightest:#80d280;
+
+ Light blue
+ --ifm-color-primary:#54c7ec;
+ --ifm-color-primary-dark:#4cb3d4;
+ --ifm-color-primary-darker:#47a9c9;
+ --ifm-color-primary-darkest:#3b8ba5;
+ --ifm-color-primary-light:#6ecfef;
+ --ifm-color-primary-lighter:#87d8f2;
+ --ifm-color-primary-lightest:#aae3f6;
+
+ Orange
+--ifm-color-primary:#ffba00;
+  --ifm-color-primary-dark:#e6a700;
+  --ifm-color-primary-darker:#d99e00;
+  --ifm-color-primary-darkest:#b38200;
+  --ifm-color-primary-light:#ffc426;
+  --ifm-color-primary-lighter:#ffcf4d;
+  --ifm-color-primary-lightest:#ffdd80;
+ 
+ Red
+ --ifm-color-primary:#fa383e;
+ --ifm-color-primary-dark:#e13238;
+ --ifm-color-primary-darker:#d53035;
+ --ifm-color-primary-darkest:#af272b;
+ --ifm-color-primary-light:#fb565b;
+ --ifm-color-primary-lighter:#fb7478;
+ --ifm-color-primary-lightest:#fd9c9f;
+ */
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
