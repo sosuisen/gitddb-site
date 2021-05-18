@@ -6,6 +6,7 @@ const FeatureList = [
   {
     title: 'Easy to Use',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    imgPath: '../../static/img/easy_to_use.png',
     description: (
       <>
       Manage Git repository by DocumentDB API. <br />
@@ -16,6 +17,7 @@ const FeatureList = [
   {
     title: 'Fully Automated',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    imgPath: '../../static/img/fully_automated.png',
     description: (
       <>
       Automated synchronization and conflict resolution with a remote Git repository (GitHub).<br />
@@ -26,6 +28,7 @@ const FeatureList = [
   {
     title: 'Powered by Git',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    imgPath: '../../static/img/powered_by_git.png',
     description: (
       <>
       Interoperability with other Git tools.<br />
@@ -36,11 +39,14 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, imgPath}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        {
+         // <Svg className={styles.featureSvg} alt={title} /> 
+        }
+        <img src={imgPath} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
