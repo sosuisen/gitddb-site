@@ -22,6 +22,11 @@ You do not need knowledge of Git to start. However, you make the most of GitDocu
 
 # Next steps
 
+## Download
+- [Install](/docs/tutorial/install) from npm.
+
+## Tutorial
 - Go to [Tutorial](/docs/tutorial/install) to learn GitDDB step by step.
 
+## Examples
 - [Clone the GitDocumentDB repository](https://github.com/sosuisen/git-documentdb), and run examples in [examples directory](https://github.com/sosuisen/git-documentdb/tree/main/examples).
