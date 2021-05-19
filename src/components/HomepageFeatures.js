@@ -5,8 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    imgPath: '/img/easy_to_use.png',
+    imgPath: '/img/easy_to_use_small.png',
     description: (
       <>
       Manage Git repository by DocumentDB API. <br />
@@ -16,8 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Fully Automated',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    imgPath: '/img/fully_automated.png',
+    imgPath: '/img/fully_automated_small.png',
     description: (
       <>
       Automated synchronization and conflict resolution with a remote Git repository (GitHub).<br />
@@ -27,8 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Powered by Git',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    imgPath: '/img/powered_by_git.png',
+    imgPath: '/img/powered_by_git_small.png',
     description: (
       <>
       Interoperability with other Git tools.<br />
@@ -43,9 +40,6 @@ function Feature({Svg, title, description, imgPath}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {
-         // <Svg className={styles.featureSvg} alt={title} /> 
-        }
         <img src={imgPath} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
