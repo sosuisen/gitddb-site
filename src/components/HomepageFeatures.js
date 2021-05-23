@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Offline capable',
+    title: 'Offline Capable',
     imgPath: '/img/offline_capable_small.png',
     description: (
       <>
