@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # About
 
-GitDocumentDB is an offline-first DocumentDB using Git
+GitDocumentDB is an offline-first DocumentDB that synchronizes with Git.
 
 Use GitDocumentDB to ...
 
