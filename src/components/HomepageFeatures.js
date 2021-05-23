@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Offline capable',
-    imgPath: '/img/easy_to_use_small.png',
+    imgPath: '/img/offline_capable_small.png',
     description: (
       <>
       Distributed multi-primary database that can work in offline and online.
