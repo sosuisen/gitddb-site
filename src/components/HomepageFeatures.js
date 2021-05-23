@@ -27,7 +27,7 @@ const FeatureList = [
     imgPath: '/img/fully_automated_small.png',
     description: (
       <>
-      Automated synchronization and conflict resolution with a remote repository.<br />
+      Automated synchronization and diff &amp; patch with a remote repository.<br />
       No need to resolve conflicts manually.
       </>
     ),
