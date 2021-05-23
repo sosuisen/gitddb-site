@@ -4,6 +4,15 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
+    title: 'Offline capable',
+    imgPath: '/img/easy_to_use_small.png',
+    description: (
+      <>
+      Distributed multi-primary database that can work in offline and online.
+      </>
+    ),
+  },
+  {
     title: 'Easy to Use',
     imgPath: '/img/easy_to_use_small.png',
     description: (
@@ -18,7 +27,7 @@ const FeatureList = [
     imgPath: '/img/fully_automated_small.png',
     description: (
       <>
-      Automated synchronization and conflict resolution with a remote Git repository (GitHub).<br />
+      Automated synchronization and conflict resolution with a remote repository.<br />
       No need to resolve conflicts manually.
       </>
     ),
@@ -28,8 +37,7 @@ const FeatureList = [
     imgPath: '/img/powered_by_git_small.png',
     description: (
       <>
-      Interoperability with other Git tools.<br />
-      CI/CD through GitHub.<br />
+      Interoperability with other Git tools. CI/CD through GitHub.<br />
       Get past revisions.
       </>
     ),
@@ -38,7 +46,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description, imgPath}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <img src={imgPath} alt={title} />
       </div>

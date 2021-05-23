@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'GitDocumentDB',
-  tagline: 'JavaScript Database that Syncs with Git',
+  tagline: 'Offline-first Database that Syncs with Git',
   url: 'https://gitddb.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
