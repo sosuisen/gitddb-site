@@ -8,7 +8,8 @@ const FeatureList = [
     imgPath: '/img/offline_capable_small.png',
     description: (
       <>
-      Distributed multi-primary database that can work in offline and online.
+      Distributed multi-primary database that can work in offline and online. <br />
+      <a href='https://gitddb.com/blog/offline-capable'>See more.</a>
       </>
     ),
   },
@@ -18,7 +19,7 @@ const FeatureList = [
     description: (
       <>
       Manage Git repository by DocumentDB API. <br />
-      You can store JSON or any documents in the Git repository. (<a href="https://github.com/sosuisen/git-documentdb#roadmap">Roadmap</a>)
+      You can store JSON or any documents in the Git repository. <a href="https://github.com/sosuisen/git-documentdb#roadmap">(Roadmap)</a>
       </>
     ),
   },
