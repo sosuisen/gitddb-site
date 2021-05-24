@@ -8,6 +8,6 @@ author_image_url: https://github.com/sosuisen.png
 tags: [greetings]
 ---
 
-Welcome to GitDocumentDB blog. 
+Welcome to the GitDocumentDB blog. 
 
 In this blog, I will write about the GitDocumentDB technology and its release.
