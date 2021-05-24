@@ -17,7 +17,7 @@ This illustration is my drawing that shows an offline-first concept. Offline-fir
 A multi-primary database is an essential component for this paradigm.  In a multi-primary database, the data you have is not the server's cache but the original data. So, you need not get your initial data from a server. 
 
 You are free from the internet connection.  
-You can store your data in distributed place. 
+You can store your data in distributed place.  
 Moreover,  you can synchronize your distributed data with each other when online. 
 
 And this is [GitDocumentDB](https://gitddb.com).
