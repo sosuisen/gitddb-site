@@ -12,7 +12,7 @@ Documents are gathered together in collections.
 ## collection
 
 ### static getCollections(gitDDB, rootPath)
-Get collections whose path start with specified path
+Get collections whose path start with a specified path
 
 ### collectionPath()
 
