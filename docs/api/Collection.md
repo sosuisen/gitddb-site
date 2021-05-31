@@ -11,8 +11,10 @@ Documents are gathered together in collections.
 
 ## collection
 
-### collectionPath()
+### static getCollections(gitDDB, rootPath)
+Get collections whose path start with a specified path
 
+### collectionPath()
 
 ## CRUD
 
