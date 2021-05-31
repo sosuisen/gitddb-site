@@ -116,7 +116,6 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     gtag: {
       trackingID: 'G-L1Z1XDHNQD',
