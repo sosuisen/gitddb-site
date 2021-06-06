@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # Basic CRUD
 ```typescript
-  // Open a repository (/your/path/to/the/example/git-documentdb/db01/.git)
+  // Open a repository at /your/path/to/the/example/git-documentdb/db01/.git
   const result = await gitDDB.open(); 
-  // Create and open a repository if not exits.
+  // Create and open the repository if not exits.
   if (!result.ok) await gitDDB.createDB(); 
 
   // Create
