@@ -10,6 +10,10 @@ module.exports = {
   organizationName: 'sosuisen', // Usually your GitHub org/user name.
   projectName: 'git-documentdb', // Usually your repo name.
   themeConfig: {
+    gtag: {
+      trackingID: 'G-L1Z1XDHNQD',
+      anonymizeIP: true,
+    },
     navbar: {
       title: 'GitDocumentDB',
       logo: {
@@ -39,7 +43,7 @@ module.exports = {
         {
           to: 'versions',
           position: 'right',
-          label: 'v0.3.3',
+          label: 'v0.3.4',
         },
         {
           href: 'https://github.com/sosuisen/git-documentdb',
@@ -116,10 +120,4 @@ module.exports = {
       },
     ],
   ],
-  themeConfig: {
-    gtag: {
-      trackingID: 'G-L1Z1XDHNQD',
-      anonymizeIP: true,
-    },
-  },
 };
