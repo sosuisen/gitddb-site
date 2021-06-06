@@ -24,12 +24,13 @@ sidebar_position: 5
 
   // Read
   const flowerInYoshino = await gitDDB.get('yoshino/mt_yoshino');
-  console.log(flowerInYoshino); // { flower: 'cherry blossoms', _id: 'yoshino/mt_yoshino' }
+  console.log(flowerInYoshino);
+  // { flower: 'cherry blossoms', _id: 'yoshino/mt_yoshino' }
 
   // Prefix search
   
   // Read all the documents whose IDs start with the prefix.
-  const flowersInNara = await gitDDB.allDocs({ prefix: 'nara/', include_docs: true });
+  const flowersInNara = await gitDDB.allDocs({ prefix: 'nara/' });
   console.dir(flowersInNara, { depth: 3 });
   /* flowersInNara = 
   {
@@ -50,6 +51,7 @@ sidebar_position: 5
   }
   */
  
-  // destroy() closes DB and removes both the Git repository and the working directory if they exist.
+  // destroy() closes DB and removes 
+  // both the Git repository and the working directory if they exist.
   await gitDDB.destroy();
 ```

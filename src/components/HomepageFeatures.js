@@ -19,7 +19,7 @@ const FeatureList = [
     description: (
       <>
       Manage Git repository by DocumentDB API. <br />
-      You can store JSON or any documents in the Git repository. <a href="https://github.com/sosuisen/git-documentdb#roadmap">(Roadmap)</a>
+      You can store JSON documents in the Git repository.
       </>
     ),
   },

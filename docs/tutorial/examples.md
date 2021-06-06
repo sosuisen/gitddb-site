@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 
 # Examples
-See examples directory.
+See [examples directory](https://github.com/sosuisen/git-documentdb/tree/main/examples).
 ```
 $ cd examples
 $ npm i

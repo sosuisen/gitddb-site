@@ -16,10 +16,11 @@ sidebar_position: 6
 
   // Read
   const flowerInYoshinoCollection = await yoshino.get('mt_yoshino');
-  console.log(flowerInYoshinoCollection); // { flower: 'cherry blossoms', _id: 'mt_yoshino' }
+  console.log(flowerInYoshinoCollection);
+  // { flower: 'cherry blossoms', _id: 'mt_yoshino' }
 
   // Read all the documents in nara collection
-  const flowersInNaraCollection = await nara.allDocs({ include_docs: true });
+  const flowersInNaraCollection = await nara.allDocs();
   console.dir(flowersInNaraCollection, { depth: 3 });
   /* flowersInNaraCollection = 
   {
