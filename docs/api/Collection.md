@@ -8,8 +8,11 @@ Documents are gathered together in collections.
 
 🧰[spec](https://github.com/sosuisen/git-documentdb/blob/doc-v1.0/docs-api/git-documentdb.gitdocumentdb.md)
 
+## Lifecycle
 
-## collection
+### Collection(_gitDDB, _collectionPath)
+
+Constructor
 
 ### static getCollections(gitDDB, rootPath)
 Get collections whose path start with a specified path

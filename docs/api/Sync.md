@@ -15,6 +15,10 @@ You can also get the created instance by [GitDocumentDB#getSynchronizer()](GitDo
 
 ## Lifecycle
 
+### Sync(_gitDDB, _options)
+
+Constructor
+
 ### close()
 
 Stop sync and clear remote connection
@@ -64,6 +68,10 @@ Add SyncEvent handler
 ## options()
 
 Get remote options (read-only)
+
+## remoteRepository()
+
+Get remote repository
 
 ## remoteURL()
 

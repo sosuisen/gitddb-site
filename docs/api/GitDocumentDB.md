@@ -10,6 +10,10 @@ GitDocumentDB class provides document database APIs to manage Git repository.
 
 ## Create or open database
 
+### GitDocumentDB(options) 
+
+Constructor
+
 ### createDB(remoteOptions)
 Create and open a repository
 
@@ -87,7 +91,7 @@ Get a document with metadata
 
 ## Sync
 
-### sync(remoteURL, options), sync(options)
+### sync(options), sync(options, get_sync_result)
 
 Synchronize with a remote repository
 
@@ -107,9 +111,13 @@ Stop and unregister remote synchronization
 
 ## Repository
 
+### dbId()
+
+Get database id
+
 ### dbName()
 
-Get dbName
+Get database name
 
 ### isOpened()
 
@@ -118,6 +126,11 @@ Test if a database is opened
 ### repository()
 
 Get a current repository
+
+### setRepository(repos)
+
+Set a current repository
+
 
 ### workingDir()
 
@@ -128,8 +141,6 @@ Get a full path of the current Git working directory
 ## Properties
 
 ### defaultBranch
-### fileExt 	
-File extension of a repository document
 ### gitAuthor
 Author name and email
 ### isClosing
