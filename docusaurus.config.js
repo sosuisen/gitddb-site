@@ -29,7 +29,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'api/API_overview',
+          docId: 'api/git-documentdb.gitdocumentdb',
           position: 'left',
           label: 'API',
         },        
