@@ -26,7 +26,9 @@ export declare type RemoteOptions = {
     includeCommits?: boolean;
 };
 ```
-<b>References:</b> [SyncDirection](./git-documentdb.syncdirection.md) , [ConnectionSettings](./git-documentdb.connectionsettings.md) , [ConflictResolutionStrategies](./git-documentdb.conflictresolutionstrategies.md) , [CombineDbStrategies](./git-documentdb.combinedbstrategies.md)
+<b>References:</b>
+
+[SyncDirection](./git-documentdb.syncdirection.md) , [ConnectionSettings](./git-documentdb.connectionsettings.md) , [ConflictResolutionStrategies](./git-documentdb.conflictresolutionstrategies.md) , [CombineDbStrategies](./git-documentdb.combinedbstrategies.md)
 
 ## Remarks
 
@@ -44,7 +46,7 @@ export declare type RemoteOptions = {
 
 - interval: Synchronization interval (milliseconds)
 
-- retry: Number of network retries. Retry does not occurred if retry is 0.
+- retry: Number of network retries. Retry does not occur if retry is 0.
 
 - retryInterval: Retry interval (milliseconds)
 

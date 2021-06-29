@@ -8,7 +8,7 @@ hide_title: true
 
 ## SyncResultPush type
 
-Push action occurred in synchronization.
+Synchronization pushed commits.
 
 <b>Signature:</b>
 
@@ -23,11 +23,13 @@ export declare type SyncResultPush = {
     };
 };
 ```
-<b>References:</b> [ChangedFile](./git-documentdb.changedfile.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
+<b>References:</b>
+
+[ChangedFile](./git-documentdb.changedfile.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
 
 ## Remarks
 
 - commits are sorted from old to new.
 
-- commits.remote: List of commits which has been pushed to remote
+- commits.remote: List of commits that had been pushed to remote
 

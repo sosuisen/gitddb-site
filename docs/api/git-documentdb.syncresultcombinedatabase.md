@@ -8,7 +8,7 @@ hide_title: true
 
 ## SyncResultCombineDatabase type
 
-Combine action occurred in synchronization.
+Synchronization combined databases.
 
 <b>Signature:</b>
 
@@ -18,7 +18,9 @@ export declare type SyncResultCombineDatabase = {
     duplicates: DuplicatedFile[];
 };
 ```
-<b>References:</b> [DuplicatedFile](./git-documentdb.duplicatedfile.md)
+<b>References:</b>
+
+[DuplicatedFile](./git-documentdb.duplicatedfile.md)
 
 ## Remarks
 

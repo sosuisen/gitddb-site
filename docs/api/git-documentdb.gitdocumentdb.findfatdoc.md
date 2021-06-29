@@ -8,7 +8,7 @@ hide_title: true
 
 ## GitDocumentDB.findFatDoc() method
 
-Get all the data
+Get all the FatDoc data
 
 <b>Signature:</b>
 
@@ -26,6 +26,10 @@ findFatDoc(options?: FindOptions): Promise<FatDoc[]>;
 
 Promise&lt;[FatDoc](./git-documentdb.fatdoc.md) \[\]&gt;
 
+## Remarks
+
+- This is an alias of GitDocumentDB\#rootCollection.findFatDoc()
+
 ## Exceptions
 
 [Err.DatabaseClosingError](./git-documentdb.err.databaseclosingerror.md)
@@ -33,8 +37,4 @@ Promise&lt;[FatDoc](./git-documentdb.fatdoc.md) \[\]&gt;
 [Err.RepositoryNotOpenError](./git-documentdb.err.repositorynotopenerror.md)
 
 [Err.InvalidJsonObjectError](./git-documentdb.err.invalidjsonobjecterror.md)
-
-## Remarks
-
-- This is an alias of GitDocumentDB\#rootCollection.findFatDoc()
 

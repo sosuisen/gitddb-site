@@ -8,12 +8,14 @@ hide_title: true
 
 ## SyncCombineDatabaseCallback type
 
-Callback of combine event
+Callback of 'combine' event
 
 <b>Signature:</b>
 
 ```typescript
 export declare type SyncCombineDatabaseCallback = (duplicates: DuplicatedFile[]) => void;
 ```
-<b>References:</b> [DuplicatedFile](./git-documentdb.duplicatedfile.md)
+<b>References:</b>
+
+[DuplicatedFile](./git-documentdb.duplicatedfile.md)
 

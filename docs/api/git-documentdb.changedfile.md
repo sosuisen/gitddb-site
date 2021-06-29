@@ -8,12 +8,14 @@ hide_title: true
 
 ## ChangedFile type
 
-Union type of changed files in merge operation
+Union type of changed files in a merge operation
 
 <b>Signature:</b>
 
 ```typescript
 export declare type ChangedFile = ChangedFileInsert | ChangedFileUpdate | ChangedFileDelete;
 ```
-<b>References:</b> [ChangedFileInsert](./git-documentdb.changedfileinsert.md) , [ChangedFileUpdate](./git-documentdb.changedfileupdate.md) , [ChangedFileDelete](./git-documentdb.changedfiledelete.md)
+<b>References:</b>
+
+[ChangedFileInsert](./git-documentdb.changedfileinsert.md) , [ChangedFileUpdate](./git-documentdb.changedfileupdate.md) , [ChangedFileDelete](./git-documentdb.changedfiledelete.md)
 

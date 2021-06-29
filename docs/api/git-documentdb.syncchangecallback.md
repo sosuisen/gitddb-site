@@ -8,12 +8,14 @@ hide_title: true
 
 ## SyncChangeCallback type
 
-Callback of change event
+Callback of 'change' event
 
 <b>Signature:</b>
 
 ```typescript
 export declare type SyncChangeCallback = (syncResult: SyncResult, taskMetadata: TaskMetadata) => void;
 ```
-<b>References:</b> [SyncResult](./git-documentdb.syncresult.md) , [TaskMetadata](./git-documentdb.taskmetadata.md)
+<b>References:</b>
+
+[SyncResult](./git-documentdb.syncresult.md) , [TaskMetadata](./git-documentdb.taskmetadata.md)
 

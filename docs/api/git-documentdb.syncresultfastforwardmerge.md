@@ -8,7 +8,7 @@ hide_title: true
 
 ## SyncResultFastForwardMerge type
 
-Fast-forward action occurred in synchronization.
+Synchronization invoked fast-forward merge.
 
 <b>Signature:</b>
 
@@ -23,11 +23,13 @@ export declare type SyncResultFastForwardMerge = {
     };
 };
 ```
-<b>References:</b> [ChangedFile](./git-documentdb.changedfile.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
+<b>References:</b>
+
+[ChangedFile](./git-documentdb.changedfile.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
 
 ## Remarks
 
 - commits are sorted from old to new.
 
-- commits.local: List of commits which has been pulled to local
+- commits.local: List of commits that had been pulled to local
 

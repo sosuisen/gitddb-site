@@ -8,7 +8,7 @@ hide_title: true
 
 ## Collection.getFatDocHistory() method
 
-Get revision history of a data
+Get revision history of a FatDoc data
 
 <b>Signature:</b>
 
@@ -28,13 +28,17 @@ getFatDocHistory(shortName: string, historyOptions?: HistoryOptions, getOptions?
 
 Promise&lt;([FatDoc](./git-documentdb.fatdoc.md) \| undefined)\[\]&gt;
 
-Array of FatDoc or undefined. - undefined if the document does not exists or the document is deleted.
+Array of FatDoc or undefined. - undefined if a specified data does not exist or it is deleted.
 
-- Array of FatJsonDoc if isJsonDocCollection is true or the file extension is '.json'. Be careful that JsonDoc may not have \_id property if it was not created by GitDocumentDB.
+- Array of FatJsonDoc if isJsonDocCollection is true or the file extension is '.json'. Be careful that JsonDoc may not have \_id property when an app other than GitDocumentDB creates it.
 
 - Array of FatBinaryDoc if described in .gitattribtues, otherwise array of FatTextDoc.
 
 - getOptions.forceDocType always overwrite return type.
+
+## Remarks
+
+See [GitDocumentDB.getHistory()](./git-documentdb.gitdocumentdb.gethistory.md) for detailed examples.
 
 ## Exceptions
 
@@ -43,8 +47,4 @@ Array of FatDoc or undefined. - undefined if the document does not exists or the
 [Err.RepositoryNotOpenError](./git-documentdb.err.repositorynotopenerror.md)
 
 [Err.InvalidJsonObjectError](./git-documentdb.err.invalidjsonobjecterror.md)
-
-## Remarks
-
-See [GitDocumentDB.getHistory()](./git-documentdb.gitdocumentdb.gethistory.md) for detailed examples.
 

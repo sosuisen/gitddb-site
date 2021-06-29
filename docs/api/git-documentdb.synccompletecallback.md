@@ -8,12 +8,14 @@ hide_title: true
 
 ## SyncCompleteCallback type
 
-Callback of compete event
+Callback of 'complete' event
 
 <b>Signature:</b>
 
 ```typescript
 export declare type SyncCompleteCallback = (taskMetadata: TaskMetadata) => void;
 ```
-<b>References:</b> [TaskMetadata](./git-documentdb.taskmetadata.md)
+<b>References:</b>
+
+[TaskMetadata](./git-documentdb.taskmetadata.md)
 

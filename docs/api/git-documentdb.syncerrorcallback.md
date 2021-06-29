@@ -8,12 +8,14 @@ hide_title: true
 
 ## SyncErrorCallback type
 
-Callback of error event
+Callback of 'error' event
 
 <b>Signature:</b>
 
 ```typescript
 export declare type SyncErrorCallback = (error: Error, taskMetadata: TaskMetadata) => void;
 ```
-<b>References:</b> [TaskMetadata](./git-documentdb.taskmetadata.md)
+<b>References:</b>
+
+[TaskMetadata](./git-documentdb.taskmetadata.md)
 

@@ -8,7 +8,7 @@ hide_title: true
 
 ## Collection.putFatDoc() method
 
-Insert a data if not exists. Otherwise, update it.
+Insert data if not exists. Otherwise, update it.
 
 <b>Signature:</b>
 
@@ -27,6 +27,16 @@ putFatDoc(shortName: string | undefined | null, doc: JsonDoc | Uint8Array | stri
 <b>Returns:</b>
 
 Promise&lt;[PutResult](./git-documentdb.putresult.md) &gt;
+
+## Remarks
+
+- The saved file path is `${GitDocumentDB#workingDir}/${Collection#collectionPath}/${shortName}.json` .
+
+- If shortName is undefined, it is automatically generated.
+
+- \_id property of a JsonDoc is automatically set or overwritten by shortName parameter whose .json extension is omitted.
+
+- An update operation is not skipped even if no change occurred on a specified data.
 
 ## Exceptions
 
@@ -49,14 +59,4 @@ Promise&lt;[PutResult](./git-documentdb.putresult.md) &gt;
 [Err.CannotCreateDirectoryError](./git-documentdb.err.cannotcreatedirectoryerror.md) (from putWorker)
 
 [Err.CannotWriteDataError](./git-documentdb.err.cannotwritedataerror.md) (from putWorker)
-
-## Remarks
-
-- The saved file path is `${GitDocumentDB#workingDir}/${Collection#collectionPath}/${shortName}.json` .
-
-- If shortName is undefined, it is automatically generated.
-
-- \_id property of a JsonDoc is automatically set or overwritten by shortName parameter whose .json extension is omitted.
-
-- An update operation is not skipped even if no change occurred on a specified data.
 

@@ -8,7 +8,7 @@ hide_title: true
 
 ## SyncResultResolveConflictsAndPushError type
 
-Resolve conflicts and push actions occurred and push failed in synchronization.
+Synchronization resolved conflicts, created a merge commit, and failed to push it.
 
 <b>Signature:</b>
 
@@ -25,11 +25,13 @@ export declare type SyncResultResolveConflictsAndPushError = {
     error: Error;
 };
 ```
-<b>References:</b> [ChangedFile](./git-documentdb.changedfile.md) , [AcceptedConflict](./git-documentdb.acceptedconflict.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
+<b>References:</b>
+
+[ChangedFile](./git-documentdb.changedfile.md) , [AcceptedConflict](./git-documentdb.acceptedconflict.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
 
 ## Remarks
 
 - commits are sorted from old to new.
 
-- commits.local: List of commits which has been pulled to local
+- commits.local: List of commits that had been pulled to local
 

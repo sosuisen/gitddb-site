@@ -1,6 +1,6 @@
 {
   "name": "gitddb-site",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -11,7 +11,8 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "copy-docs-api": "rm -f docs/api/* && cp ../git-documentdb/docs-api/* docs/api/"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.0",

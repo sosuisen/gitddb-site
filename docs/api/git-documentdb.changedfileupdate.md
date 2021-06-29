@@ -8,7 +8,7 @@ hide_title: true
 
 ## ChangedFileUpdate type
 
-Updated file in merge operation
+Updated file in a merge operation
 
 <b>Signature:</b>
 
@@ -19,5 +19,7 @@ export declare type ChangedFileUpdate = {
     new: FatDoc;
 };
 ```
-<b>References:</b> [FatDoc](./git-documentdb.fatdoc.md)
+<b>References:</b>
+
+[FatDoc](./git-documentdb.fatdoc.md)
 

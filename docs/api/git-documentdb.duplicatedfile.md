@@ -8,7 +8,7 @@ hide_title: true
 
 ## DuplicatedFile type
 
-Duplicated file in combine operation
+Duplicated file in combining operation
 
 <b>Signature:</b>
 
@@ -18,5 +18,7 @@ export declare type DuplicatedFile = {
     duplicate: DocMetadata;
 };
 ```
-<b>References:</b> [DocMetadata](./git-documentdb.docmetadata.md)
+<b>References:</b>
+
+[DocMetadata](./git-documentdb.docmetadata.md)
 

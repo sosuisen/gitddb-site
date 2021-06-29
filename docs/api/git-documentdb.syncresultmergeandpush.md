@@ -8,7 +8,7 @@ hide_title: true
 
 ## SyncResultMergeAndPush type
 
-Merge and push actions occurred in synchronization.
+Synchronization created a merge commit and pushed it.
 
 <b>Signature:</b>
 
@@ -25,13 +25,15 @@ export declare type SyncResultMergeAndPush = {
     };
 };
 ```
-<b>References:</b> [ChangedFile](./git-documentdb.changedfile.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
+<b>References:</b>
+
+[ChangedFile](./git-documentdb.changedfile.md) , [NormalizedCommit](./git-documentdb.normalizedcommit.md)
 
 ## Remarks
 
 - commits are sorted from old to new.
 
-- commits.local: List of commits which has been pulled to local
+- commits.local: List of commits that had been pulled to local
 
-- commits.remote: List of commits which has been pushed to remote
+- commits.remote: List of commits that had been pushed to remote
 

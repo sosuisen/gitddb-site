@@ -8,7 +8,7 @@ hide_title: true
 
 ## HistoryOptions type
 
-Options for getHistory and getFatDocHistory
+Options for getHistory() and getFatDocHistory()
 
 <b>Signature:</b>
 
@@ -17,9 +17,11 @@ export declare type HistoryOptions = {
     filter?: HistoryFilter[];
 };
 ```
-<b>References:</b> [HistoryFilter](./git-documentdb.historyfilter.md)
+<b>References:</b>
+
+[HistoryFilter](./git-documentdb.historyfilter.md)
 
 ## Remarks
 
-- filter: Tha array of revisions is filtered by matching multiple HistoryFilters in OR condition.
+- filter: This filters an array of revisions by matching multiple HistoryFilters in OR condition.
 

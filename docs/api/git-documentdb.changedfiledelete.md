@@ -8,7 +8,7 @@ hide_title: true
 
 ## ChangedFileDelete type
 
-Deleted file in merge operation
+Deleted file in a merge operation
 
 <b>Signature:</b>
 
@@ -18,5 +18,7 @@ export declare type ChangedFileDelete = {
     old: FatDoc;
 };
 ```
-<b>References:</b> [FatDoc](./git-documentdb.fatdoc.md)
+<b>References:</b>
+
+[FatDoc](./git-documentdb.fatdoc.md)
 

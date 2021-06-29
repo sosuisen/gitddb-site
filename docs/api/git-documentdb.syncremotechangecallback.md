@@ -8,12 +8,14 @@ hide_title: true
 
 ## SyncRemoteChangeCallback type
 
-Callback of remoteChange event
+Callback of 'remoteChange' event
 
 <b>Signature:</b>
 
 ```typescript
 export declare type SyncRemoteChangeCallback = (changedFiles: ChangedFile[], taskMetadata: TaskMetadata) => void;
 ```
-<b>References:</b> [ChangedFile](./git-documentdb.changedfile.md) , [TaskMetadata](./git-documentdb.taskmetadata.md)
+<b>References:</b>
+
+[ChangedFile](./git-documentdb.changedfile.md) , [TaskMetadata](./git-documentdb.taskmetadata.md)
 
