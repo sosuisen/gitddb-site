@@ -2,6 +2,12 @@
 
 A complete release history is available on [GitHub](https://github.com/sosuisen/git-documentdb/releases).
 
+## v0.4.0
+
+API renewal to manage any data types
+
+[ChangeLog](https://github.com/sosuisen/git-documentdb/releases/tag/v0.4.0)
+
 ## v0.3.0
 
 Automated synchronization and conflict resolution with GitHub
