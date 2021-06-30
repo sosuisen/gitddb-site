@@ -64,7 +64,7 @@ module.exports = {
             },
             {
               label: 'API',
-              to: '/docs/api/API_overview',
+              to: '/docs/api/api/git-documentdb.gitdocumentdb',
             },
             {
               label: 'Guide',
