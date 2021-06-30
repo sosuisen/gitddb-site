@@ -10,7 +10,7 @@ Use GitDocumentDB to ...
 
 :green_book: Store JSON documents into Git repository. 
 
-:art: Manage Git repository by PouchDB-like API. 
+:art: Manage Git repository by document database API. 
 
 :rocket: Synchronize, diff and patch automatically with a remote repository.
 
@@ -18,7 +18,7 @@ Use GitDocumentDB to ...
 
 :arrows_counterclockwise: CI/CD through GitHub.
 
-:dromedary_camel: Travel history of database.
+:dromedary_camel: Travel revisions.
 
 You do not need knowledge of Git to start. However, you make the most of GitDocumentDB if you understand Git.
 

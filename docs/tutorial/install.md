@@ -5,7 +5,7 @@ sidebar_position: 1
 # Install
 
 ## **Prerequisite**
-Node.js 10 or later
+Node.js 12 or later
 ## **Installation**
 ```
 npm i git-documentdb

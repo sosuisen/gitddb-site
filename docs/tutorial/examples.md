@@ -5,6 +5,7 @@ sidebar_position: 7
 # Examples
 See [examples directory](https://github.com/sosuisen/git-documentdb/tree/main/examples).
 ```
+$ npm run build
 $ cd examples
 $ npm i
 $ npm start

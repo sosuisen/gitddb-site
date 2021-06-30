@@ -43,7 +43,7 @@ module.exports = {
         {
           to: 'versions',
           position: 'right',
-          label: 'v0.3.4',
+          label: 'v0.4.0',
         },
         {
           href: 'https://github.com/sosuisen/git-documentdb',
