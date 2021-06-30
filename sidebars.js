@@ -64,11 +64,11 @@ module.exports = {
         },
 
         {
-          type: 'category', label: 'Get back number', items: [
-            'api/git-documentdb.gitdocumentdb.getbacknumber',
+          type: 'category', label: 'Get old revision', items: [
+            'api/git-documentdb.gitdocumentdb.getoldrevision',
             'api/git-documentdb.gitdocumentdb.gethistory',
 
-            'api/git-documentdb.gitdocumentdb.getfatdocbacknumber',
+            'api/git-documentdb.gitdocumentdb.getfatdocoldrevision',
             'api/git-documentdb.gitdocumentdb.getfatdochistory',
           ]
         },
@@ -191,11 +191,11 @@ module.exports = {
         },
 
         {
-          type: 'category', label: 'Get back number', items: [
-            'api/git-documentdb.collection.getbacknumber',
+          type: 'category', label: 'Get old revision', items: [
+            'api/git-documentdb.collection.getoldrevision',
             'api/git-documentdb.collection.gethistory',
 
-            'api/git-documentdb.collection.getfatdocbacknumber',
+            'api/git-documentdb.collection.getfatdocoldrevision',
             'api/git-documentdb.collection.getfatdochistory',
           ]
         },

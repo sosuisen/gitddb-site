@@ -1,19 +1,19 @@
 ---
-sidebar_label: getFatDocBackNumber()
-title: GitDocumentDB.getFatDocBackNumber() method
+sidebar_label: getFatDocOldRevision()
+title: GitDocumentDB.getFatDocOldRevision() method
 hide_title: true
 ---
 
-[Home](./index.md) &gt; [git-documentdb](./git-documentdb.md) &gt; [GitDocumentDB](./git-documentdb.gitdocumentdb.md) &gt; [getFatDocBackNumber](./git-documentdb.gitdocumentdb.getfatdocbacknumber.md)
+[Home](./index.md) &gt; [git-documentdb](./git-documentdb.md) &gt; [GitDocumentDB](./git-documentdb.gitdocumentdb.md) &gt; [getFatDocOldRevision](./git-documentdb.gitdocumentdb.getfatdocoldrevision.md)
 
-## GitDocumentDB.getFatDocBackNumber() method
+## GitDocumentDB.getFatDocOldRevision() method
 
-Get a back number of a FatDoc data
+Get an old revision of a FatDoc data
 
 <b>Signature:</b>
 
 ```typescript
-getFatDocBackNumber(name: string, backNumber: number, historyOptions?: HistoryOptions, getOptions?: GetOptions): Promise<FatDoc | undefined>;
+getFatDocOldRevision(name: string, revision: number, historyOptions?: HistoryOptions, getOptions?: GetOptions): Promise<FatDoc | undefined>;
 ```
 
 ## Parameters
@@ -21,7 +21,7 @@ getFatDocBackNumber(name: string, backNumber: number, historyOptions?: HistoryOp
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  name | string | name is a file path. |
-|  backNumber | number | Specify a number to go back to old revision. Default is 0. When backNumber equals 0, the latest revision is returned. See [GitDocumentDB.getHistory()](./git-documentdb.gitdocumentdb.gethistory.md) for the array of revisions. |
+|  revision | number | Specify a number to go back to old revision. Default is 0. See [GitDocumentDB.getHistory()](./git-documentdb.gitdocumentdb.gethistory.md) for the array of revisions. |
 |  historyOptions | [HistoryOptions](./git-documentdb.historyoptions.md) | The array of revisions is filtered by HistoryOptions.filter. |
 |  getOptions | [GetOptions](./git-documentdb.getoptions.md) |  |
 
@@ -39,7 +39,16 @@ Promise&lt;[FatDoc](./git-documentdb.fatdoc.md) \| undefined&gt;
 
 - getOptions.forceDocType always overwrite return type.
 
-- This is an alias of GitDocumentDB\#rootCollection.getFatDocBackNumber()
+- This is an alias of GitDocumentDB\#rootCollection.getFatDocOldRevision()
+
+## Example
+
+
+```
+db.getFatDocOldRevision(name, 0); // returns the latest FatDoc.
+db.getFatDocOldRevision(name, 2); // returns a FatDoc two revisions older than the latest.
+
+```
 
 ## Exceptions
 
