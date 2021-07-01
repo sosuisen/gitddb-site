@@ -12,12 +12,12 @@ tags: [feature]
 
 He is Unplugged Tanuki. He is usually offline and occasionally online. He is always having fun, no matter where he is.
 
-This is my drawing that illustrates an offline-first concept. Offline-first is a design paradigm that ensures your app works offline as well as online.
+The above is my drawing that illustrates an offline-first concept. Offline-first is a design paradigm that ensures your app works offline as well as online.
 
-A multi-primary database is an essential component for this paradigm.  In a multi-primary database, the data you have is not the server's cache but the original data. So, you need not get your initial data from a server. 
+A multi-primary database is an essential component of this paradigm. In a multi-primary database, the data you have is not the server's cache but the original data. So, you need not get your initial data from a server. 
 
 You are free from the internet connection.  
 You can store your data in distributed place.  
 Moreover,  you can synchronize your distributed data with each other when online. 
 
-And this is [GitDocumentDB](https://gitddb.com).
+[GitDocumentDB](https://gitddb.com) is the offline-first database that realizes these concepts.
