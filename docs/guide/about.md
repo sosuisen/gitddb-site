@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # About
 
-GitDocumentDB is an offline-first DocumentDB that synchronizes with Git.
+GitDocumentDB is a TypeScript ready offline-first database that synchronizes with Git.
 
 Use GitDocumentDB to ...
 
@@ -22,7 +22,7 @@ Use GitDocumentDB to ...
 
 ## Pros and cons
 GitDocumentDB is compatible with Git that brings us distributed multi-primary databases and efficient CI/CD.
-It automates Git synchronization workflows by resolving revision conflicts, transactional and consistency conflicts. Typical synchronization patterns and diff-and-patch strategies solve them. Accessible CRUD and collection APIs for working with JSON reduce tasks.
+It automates Git synchronization workflows by resolving revision conflicts, transactional and consistency conflicts. Typical synchronization patterns and diff-and-patch strategies solve them. Accessible CRUD and collection APIs for working with JSON reduce tasks. JavaScript/TypeScript API for Node.js and browser easily enables multi-platform.
 
 The throughput of GitDocumentDB is about the same as Git. It is not as fast as typical databases. However, it is beneficial for those who are developing offline-first applications using Git.
 

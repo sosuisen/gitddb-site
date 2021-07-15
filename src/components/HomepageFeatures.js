@@ -18,8 +18,7 @@ const FeatureList = [
     imgPath: '/img/easy_to_use_small.png',
     description: (
       <>
-      Manage Git repository by CRUD and collection APIs.<br />
-      You can store JSON documents in the Git repository.
+      Manage Git repository by CRUD and collection APIs for JavaScript/TypeScript on Node.js and browser.
       </>
     ),
   },
