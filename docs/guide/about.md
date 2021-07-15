@@ -8,7 +8,7 @@ GitDocumentDB is an offline-first DocumentDB that synchronizes with Git.
 
 Use GitDocumentDB to ...
 
-:nut_and_bolt: Develop offline-first applications using Git.
+:nut_and_bolt: Develop offline-capable applications using Git.
 
 :green_book: Manage JSON documents in Git repository by CRUD and collection APIs. 
 
