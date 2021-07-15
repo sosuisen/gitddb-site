@@ -8,23 +8,23 @@ GitDocumentDB is an offline-first DocumentDB that synchronizes with Git.
 
 Use GitDocumentDB to ...
 
-:green_book: Store JSON documents into Git repository. 
+:nut_and_bolt: Develop offline-first applications using Git.
 
-:art: Manage Git repository by document database API. 
+:green_book: Manage JSON documents in Git repository by CRUD and collection APIs. 
 
-:rocket: Synchronize, diff and patch automatically with a remote repository.
+:rocket: Synchronize automatically with a remote repository.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(No need to resolve conflicts manually.)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(No need to resolve conflicts manually!)*
 
-:arrows_counterclockwise: CI/CD through GitHub.
+:arrows_counterclockwise: Integrate CI/CD pipelines through GitHub.
 
-:dromedary_camel: Travel revisions.
+:dromedary_camel: Get revision history of a document.
 
-The throughput in GitDocumentDB is about the same as Git. It's not fast like typical databases. 
+## Pros and cons
+GitDocumentDB is compatible with Git that brings us distributed multi-primary databases and efficient CI/CD.
+It automates Git synchronization workflows by resolving revision conflicts, transactional and consistency conflicts. Typical synchronization patterns and diff-and-patch strategies solve them. Accessible CRUD and collection APIs for working with JSON reduce tasks.
 
-However, GitDocumentDB is compatible with Git that enables distributed multi-primary databases with revision history. Besides, it has a fully automated diff, patch, and sync with remote Git repository, automated combining of inconsistent repositories, and accessible CRUD and collection APIs for operating JSON. 
-
-So, GitDocumentDB is helpful for people who develop Git-powered offline-first apps.
+The throughput of GitDocumentDB is about the same as Git. It is not as fast as typical databases. However, it is beneficial for those who are developing offline-first applications using Git.
 
 # Next steps
 

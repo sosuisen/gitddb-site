@@ -18,7 +18,7 @@ const FeatureList = [
     imgPath: '/img/easy_to_use_small.png',
     description: (
       <>
-      Manage Git repository by DocumentDB API. <br />
+      Manage Git repository by CRUD and collection APIs.<br />
       You can store JSON documents in the Git repository.
       </>
     ),
@@ -28,8 +28,8 @@ const FeatureList = [
     imgPath: '/img/fully_automated_small.png',
     description: (
       <>
-      Automated synchronization and diff &amp; patch. Automated combining of inconsistent repositories.<br />
-      No need to resolve conflicts manually.
+      Automate workflows by resolving revision conflicts, transactional and consistency conflicts.<br/ >
+      Typical synchronization patterns and diff-and-patch strategies solve them.
       </>
     ),
   },
@@ -38,7 +38,8 @@ const FeatureList = [
     imgPath: '/img/powered_by_git_small.png',
     description: (
       <>
-      Interoperability with other Git tools. CI/CD through GitHub.<br />
+      Interoperability with other Git tools.<br />
+      Efficient CI/CD through GitHub.<br />
       Get past revisions.
       </>
     ),
