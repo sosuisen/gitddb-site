@@ -27,7 +27,7 @@ const FeatureList = [
     imgPath: '/img/fully_automated_small.png',
     description: (
       <>
-      Automate workflows by resolving revision conflicts, transactional and consistency conflicts.<br/ >
+      Automate Git workflows by resolving revision conflicts, transactional and consistency conflicts.<br/ >
       Typical synchronization patterns and diff-and-patch strategies solve them.
       </>
     ),
