@@ -38,6 +38,7 @@ module.exports = {
         'api/git-documentdb.gitdocumentdb.open',
         'api/git-documentdb.gitdocumentdb.close',
         'api/git-documentdb.gitdocumentdb.destroy',
+        'api/git-documentdb.gitdocumentdb.plugin',
 
         {
           type: 'category', label: 'Put', items: [
@@ -124,13 +125,6 @@ module.exports = {
         },
 
         {
-          type: 'category', label: 'Settings', items: [
-            'api/git-documentdb.gitdocumentdb.loadappinfo',
-            'api/git-documentdb.gitdocumentdb.saveappinfo',
-          ]
-        },
-
-        {
           type: 'category', label: 'Properties', items: [
             'api/git-documentdb.gitdocumentdb.dbid',
             'api/git-documentdb.gitdocumentdb.dbname',
@@ -152,9 +146,6 @@ module.exports = {
             'api/git-documentdb.gitdocumentdb.getcommit',
 
             'api/git-documentdb.gitdocumentdb.getdocbyoid',
-
-            'api/git-documentdb.gitdocumentdb.repository',
-            'api/git-documentdb.gitdocumentdb.setrepository',
           ]
         },
 
@@ -275,22 +266,19 @@ module.exports = {
 
         {
           type: 'category', label: 'Properties', items: [
-            'api/git-documentdb.sync.credentialcallbacks',
             'api/git-documentdb.sync.jsondiff',
             'api/git-documentdb.sync.jsonpatch',
             'api/git-documentdb.sync.options',
             'api/git-documentdb.sync.remoteurl',
-            'api/git-documentdb.sync.upstreambranch',
           ]
         },
 
         {
           type: 'category', label: 'Low level methods', items: [
             'api/git-documentdb.sync.currentretries',
-            'api/git-documentdb.sync.enqueuepushtask',
-            'api/git-documentdb.sync.enqueuesynctask',
             'api/git-documentdb.sync.init',
             'api/git-documentdb.sync.remoterepository',
+            'api/git-documentdb.encodetogitremotename',                        
           ]
         },
       ]
@@ -312,7 +300,6 @@ module.exports = {
       type: 'category', label: 'RemoteRepository', items: [
         'api/git-documentdb.remoterepository',
         'api/git-documentdb.remoterepository._constructor_',
-        'api/git-documentdb.remoterepository.connect',
         'api/git-documentdb.remoterepository.create',
         'api/git-documentdb.remoterepository.destroy',
       ]
@@ -338,7 +325,7 @@ module.exports = {
         'api/git-documentdb.validator.validatelocaldir',
       ]
     },
-    
+
     {
       type: 'category', label: 'Const', items: [
         'api/git-documentdb.database_creator',
@@ -349,7 +336,7 @@ module.exports = {
         'api/git-documentdb.default_local_dir',
         'api/git-documentdb.default_log_level',
 
-        'api/git-documentdb.default_sync_interval',        
+        'api/git-documentdb.default_sync_interval',
 
         'api/git-documentdb.duplicated_file_postfix',
 
@@ -374,8 +361,9 @@ module.exports = {
 
         'api/git-documentdb.set_database_id_message',
 
-        'api/git-documentdb.short_sha_length',        
-      ]},
+        'api/git-documentdb.short_sha_length',
+      ]
+    },
 
     {
       type: 'category', label: 'Type', items: [
@@ -397,7 +385,7 @@ module.exports = {
         'api/git-documentdb.connectionsettingsgithub',
         'api/git-documentdb.connectionsettingsnone',
         'api/git-documentdb.connectionsettingsssh',
-        
+
         'api/git-documentdb.databasecloseoption',
         'api/git-documentdb.databaseinfo',
         'api/git-documentdb.databaseopenresult',
@@ -419,7 +407,7 @@ module.exports = {
         'api/git-documentdb.findoptions',
 
         'api/git-documentdb.getoptions',
-        
+
         'api/git-documentdb.historyfilter',
         'api/git-documentdb.historyoptions',
 
@@ -433,6 +421,7 @@ module.exports = {
 
         'api/git-documentdb.openoptions',
 
+        'api/git-documentdb.plugintypes',
         'api/git-documentdb.putoptions',
         'api/git-documentdb.putresult',
         'api/git-documentdb.putresultbinary',
@@ -450,29 +439,7 @@ module.exports = {
         'api/git-documentdb.syncerrorcallback',
         'api/git-documentdb.syncevent',
         'api/git-documentdb.synceventinterface',
-        'api/git-documentdb.synceventinterface.offsyncevent_1',
-        'api/git-documentdb.synceventinterface.offsyncevent',
-        'api/git-documentdb.synceventinterface.onsyncevent_1',
-        'api/git-documentdb.synceventinterface.onsyncevent',
-        'api/git-documentdb.syncinterface.close',
-        'api/git-documentdb.syncinterface.credentialcallbacks',
-        'api/git-documentdb.syncinterface.currentretries',
-        'api/git-documentdb.syncinterface.enqueuepushtask',
-        'api/git-documentdb.syncinterface.enqueuesynctask',
-        'api/git-documentdb.syncinterface.init',
-        'api/git-documentdb.syncinterface.jsondiff',
-        'api/git-documentdb.syncinterface.jsonpatch',
         'api/git-documentdb.syncinterface',
-        'api/git-documentdb.syncinterface.off',
-        'api/git-documentdb.syncinterface.on',
-        'api/git-documentdb.syncinterface.options',
-        'api/git-documentdb.syncinterface.pause',
-        'api/git-documentdb.syncinterface.remoterepository',
-        'api/git-documentdb.syncinterface.remoteurl',
-        'api/git-documentdb.syncinterface.resume',
-        'api/git-documentdb.syncinterface.trypush',
-        'api/git-documentdb.syncinterface.trysync',
-        'api/git-documentdb.syncinterface.upstreambranch',
         'api/git-documentdb.synclocalchangecallback',
         'api/git-documentdb.syncpausecallback',
         'api/git-documentdb.syncremotechangecallback',
@@ -504,8 +471,7 @@ module.exports = {
         'api/git-documentdb.err.baseerror',
 
         'api/git-documentdb.err.authenticationtypenotallowcreaterepositoryerror',
-        'api/git-documentdb.err.cannotconnecterror',
-        'api/git-documentdb.err.cannotconnecterror.retry',
+        'api/git-documentdb.err.cannotconnectremoterepositoryerror',
         'api/git-documentdb.err.cannotcreatedirectoryerror',
         'api/git-documentdb.err.cannotcreateremoterepositoryerror',
         'api/git-documentdb.err.cannotcreaterepositoryerror',
@@ -517,17 +483,13 @@ module.exports = {
         'api/git-documentdb.err.databaseclosetimeouterror',
         'api/git-documentdb.err.databaseclosingerror',
         'api/git-documentdb.err.documentnotfounderror',
-        'api/git-documentdb.err.fetchconnectionfailederror',
-        'api/git-documentdb.err.fetchpermissiondeniederror',
         'api/git-documentdb.err.fileremovetimeouterror',
         'api/git-documentdb.err.gitmergebrancherror',
-        'api/git-documentdb.err.gitpusherror',
-        'api/git-documentdb.err.httpnetworkerror',
         'api/git-documentdb.err.httpprotocolrequirederror',
         'api/git-documentdb.err.intervaltoosmallerror',
-        'api/git-documentdb.err.invalidauthenticationtypeerror',
         'api/git-documentdb.err.invalidcollectionpathcharactererror',
         'api/git-documentdb.err.invalidcollectionpathlengtherror',
+        'api/git-documentdb.err.invalidconflictresolutionstrategyerror',
         'api/git-documentdb.err.invalidconflictstateerror',
         'api/git-documentdb.err.invaliddbnamecharactererror',
         'api/git-documentdb.err.invaliddoctypeerror',
@@ -536,19 +498,12 @@ module.exports = {
         'api/git-documentdb.err.invalidjsonfileextensionerror',
         'api/git-documentdb.err.invalidjsonobjecterror',
         'api/git-documentdb.err.invalidlocaldircharactererror',
-        'api/git-documentdb.err.invalidrepositoryurlerror',
-        'api/git-documentdb.err.invalidsshkeypatherror',
-        'api/git-documentdb.err.invalidurlerror',
         'api/git-documentdb.err.invalidworkingdirectorypathlengtherror',
         'api/git-documentdb.err.nomergebasefounderror',
         'api/git-documentdb.err.personalaccesstokenforanotheraccounterror',
-        'api/git-documentdb.err.pushconnectionfailederror',
         'api/git-documentdb.err.pushnotallowederror',
-        'api/git-documentdb.err.pushpermissiondeniederror',
         'api/git-documentdb.err.pushworkererror',
         'api/git-documentdb.err.remotealreadyregisterederror',
-        'api/git-documentdb.err.remoterepositoryconnecterror',
-        'api/git-documentdb.err.remoterepositorynotfounderror',
         'api/git-documentdb.err.repositorynotfounderror',
         'api/git-documentdb.err.repositorynotopenerror',
         'api/git-documentdb.err.requesttimeouterror',
@@ -556,7 +511,6 @@ module.exports = {
         'api/git-documentdb.err.sockettimeouterror',
         'api/git-documentdb.err.syncintervallessthanorequaltoretryintervalerror',
         'api/git-documentdb.err.syncworkererror',
-        'api/git-documentdb.err.syncworkerfetcherror',
         'api/git-documentdb.err.taskcancelerror',
         'api/git-documentdb.err.threewaymergeerror',
         'api/git-documentdb.err.undefineddatabasenameerror',
@@ -565,10 +519,26 @@ module.exports = {
         'api/git-documentdb.err.undefinedpersonalaccesstokenerror',
         'api/git-documentdb.err.undefinedremoteurlerror',
         'api/git-documentdb.err.undefinedsyncerror',
-        'api/git-documentdb.err.unfetchedcommitexistserror',
       ]
     },
-    
+   
+    {
+      type: 'category', label: 'Remote Error', items: [
+        'api/git-documentdb.remoteerr',
+        'api/git-documentdb.remoteerr.cannotconnecterror',
+        'api/git-documentdb.remoteerr.httperror401authorizationrequired',
+        'api/git-documentdb.remoteerr.httperror403forbidden',
+        'api/git-documentdb.remoteerr.httperror404notfound',
+        'api/git-documentdb.remoteerr.invalidauthenticationtypeerror',
+        'api/git-documentdb.remoteerr.invalidgitremoteerror',
+        'api/git-documentdb.remoteerr.invalidrepositoryurlerror',
+        'api/git-documentdb.remoteerr.invalidsshkeypatherror',
+        'api/git-documentdb.remoteerr.invalidurlformaterror',
+        'api/git-documentdb.remoteerr.networkerror',
+        'api/git-documentdb.remoteerr.unfetchedcommitexistserror',
+      ]
+    },
+
     'api/index',
     'api/git-documentdb',
   ],

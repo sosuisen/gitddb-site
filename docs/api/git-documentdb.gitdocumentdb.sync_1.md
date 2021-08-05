@@ -33,15 +33,13 @@ Register and synchronize with a remote repository. Do not register the same remo
 
 ## Exceptions
 
-[Err.UndefinedRemoteURLError](./git-documentdb.err.undefinedremoteurlerror.md) (from Sync\#constructor())
+[Err.RemoteAlreadyRegisteredError](./git-documentdb.err.remotealreadyregisterederror.md)
 
-[Err.IntervalTooSmallError](./git-documentdb.err.intervaltoosmallerror.md) (from Sync\#constructor())
+[Err.DatabaseClosingError](./git-documentdb.err.databaseclosingerror.md)
 
-[Err.RepositoryNotFoundError](./git-documentdb.err.repositorynotfounderror.md) (from Sync\#syncAndGetResultImpl())
+[Err.RepositoryNotOpenError](./git-documentdb.err.repositorynotopenerror.md)
 
-[Err.RemoteRepositoryConnectError](./git-documentdb.err.remoterepositoryconnecterror.md) (from Sync\#init())
+Errors from constructor of [Sync](./git-documentdb.sync.md) class.
 
-[Err.PushWorkerError](./git-documentdb.err.pushworkererror.md) (from Sync\#init())
-
-[Err.SyncWorkerError](./git-documentdb.err.syncworkererror.md) (from Sync\#init())
+Errors from [Sync.init()](./git-documentdb.sync.init.md)
 

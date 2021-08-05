@@ -29,5 +29,9 @@ constructor(gitDDB: GitDDBInterface, options?: RemoteOptions);
 
 [Err.IntervalTooSmallError](./git-documentdb.err.intervaltoosmallerror.md)
 
-[Err.InvalidAuthenticationTypeError](./git-documentdb.err.invalidauthenticationtypeerror.md)
+[Err.SyncIntervalLessThanOrEqualToRetryIntervalError](./git-documentdb.err.syncintervallessthanorequaltoretryintervalerror.md)
+
+\# Errors from encodeToGitRemoteName
+
+- [RemoteErr.InvalidURLFormatError](./git-documentdb.remoteerr.invalidurlformaterror.md)
 

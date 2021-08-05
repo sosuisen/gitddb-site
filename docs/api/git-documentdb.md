@@ -21,6 +21,12 @@ Offline-first Database that Syncs with Git
 |  [TaskQueue](./git-documentdb.taskqueue.md) | TaskQueue |
 |  [Validator](./git-documentdb.validator.md) | Validator Class |
 
+## Functions
+
+|  Function | Description |
+|  --- | --- |
+|  [encodeToGitRemoteName(remoteURL)](./git-documentdb.encodetogitremotename.md) | encodeToRemoteName |
+
 ## Interfaces
 
 |  Interface | Description |
@@ -36,6 +42,7 @@ Offline-first Database that Syncs with Git
 |  Namespace | Description |
 |  --- | --- |
 |  [Err](./git-documentdb.err.md) | Namespace for errors |
+|  [RemoteErr](./git-documentdb.remoteerr.md) | RemoteError |
 
 ## Variables
 
@@ -61,6 +68,7 @@ Offline-first Database that Syncs with Git
 |  [NETWORK\_RETRY](./git-documentdb.network_retry.md) |  |
 |  [NETWORK\_TIMEOUT](./git-documentdb.network_timeout.md) |  |
 |  [PUT\_APP\_INFO\_MESSAGE](./git-documentdb.put_app_info_message.md) |  |
+|  [RemoteEngine](./git-documentdb.remoteengine.md) | RemoteEngine |
 |  [SET\_DATABASE\_ID\_MESSAGE](./git-documentdb.set_database_id_message.md) |  |
 |  [SHORT\_SHA\_LENGTH](./git-documentdb.short_sha_length.md) |  |
 
@@ -110,6 +118,7 @@ Offline-first Database that Syncs with Git
 |  [JsonDocMetadata](./git-documentdb.jsondocmetadata.md) | Metadata for JsonDoc |
 |  [NormalizedCommit](./git-documentdb.normalizedcommit.md) | Normalized Commit |
 |  [OpenOptions](./git-documentdb.openoptions.md) | Database open options |
+|  [PluginTypes](./git-documentdb.plugintypes.md) | Plugin types |
 |  [PutOptions](./git-documentdb.putoptions.md) | Options for put APIs (put, update, insert, putFatDoc, updateFatDoc, and insertFatDoc) |
 |  [PutResult](./git-documentdb.putresult.md) | Result of put APIs (put, update, insert, putFatDoc, updateFatDoc, and insertFatDoc) |
 |  [PutResultBinary](./git-documentdb.putresultbinary.md) |  |

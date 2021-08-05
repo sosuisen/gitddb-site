@@ -8,20 +8,13 @@ hide_title: true
 
 ## Sync.init() method
 
-Create remote connection
+Initialize remote connection
 
 <b>Signature:</b>
 
 ```typescript
-init(repos: nodegit.Repository): Promise<SyncResult>;
+init(): Promise<SyncResult>;
 ```
-
-## Parameters
-
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  repos | nodegit.Repository |  |
-
 <b>Returns:</b>
 
 Promise&lt;[SyncResult](./git-documentdb.syncresult.md) &gt;
@@ -32,11 +25,31 @@ Call init() once just after creating an instance.
 
 ## Exceptions
 
-[Err.RemoteRepositoryConnectError](./git-documentdb.err.remoterepositoryconnecterror.md)
+[Err.CannotCreateRemoteRepositoryError](./git-documentdb.err.cannotcreateremoterepositoryerror.md)
 
-[Err.PushWorkerError](./git-documentdb.err.pushworkererror.md)
+\# Errors from RemoteEngine\[engineName\].checkFetch
 
-[Err.NoMergeBaseFoundError](./git-documentdb.err.nomergebasefounderror.md)
+- [RemoteErr.InvalidGitRemoteError](./git-documentdb.remoteerr.invalidgitremoteerror.md)
 
-[Err.SyncWorkerError](./git-documentdb.err.syncworkererror.md)
+- [RemoteErr.InvalidURLFormatError](./git-documentdb.remoteerr.invalidurlformaterror.md)
+
+- [RemoteErr.NetworkError](./git-documentdb.remoteerr.networkerror.md)
+
+- [RemoteErr.HTTPError401AuthorizationRequired](./git-documentdb.remoteerr.httperror401authorizationrequired.md)
+
+- [RemoteErr.HTTPError404NotFound](./git-documentdb.remoteerr.httperror404notfound.md)
+
+- [RemoteErr.CannotConnectError](./git-documentdb.remoteerr.cannotconnecterror.md)
+
+- [RemoteErr.InvalidURLFormatError](./git-documentdb.remoteerr.invalidurlformaterror.md)
+
+- [RemoteErr.InvalidRepositoryURLError](./git-documentdb.remoteerr.invalidrepositoryurlerror.md)
+
+- [RemoteErr.InvalidSSHKeyPathError](./git-documentdb.remoteerr.invalidsshkeypatherror.md)
+
+- [RemoteErr.InvalidAuthenticationTypeError](./git-documentdb.remoteerr.invalidauthenticationtypeerror.md)
+
+Errors from [Sync.trySync()](./git-documentdb.sync.trysync.md)
+
+Errors from [Sync.tryPush()](./git-documentdb.sync.trypush.md)
 

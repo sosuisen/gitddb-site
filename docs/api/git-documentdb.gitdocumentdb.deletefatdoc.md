@@ -35,15 +35,15 @@ Promise&lt;[DeleteResult](./git-documentdb.deleteresult.md) &gt;
 
 [Err.UndefinedDocumentIdError](./git-documentdb.err.undefineddocumentiderror.md)
 
-[Err.DatabaseClosingError](./git-documentdb.err.databaseclosingerror.md) (from deleteImpl)
+[Err.DatabaseClosingError](./git-documentdb.err.databaseclosingerror.md)
 
-[Err.TaskCancelError](./git-documentdb.err.taskcancelerror.md) (from deleteImpl)
+[Err.TaskCancelError](./git-documentdb.err.taskcancelerror.md)
 
-[Err.RepositoryNotOpenError](./git-documentdb.err.repositorynotopenerror.md) (from deleteWorker)
+\# Errors from deleteWorker
 
-[Err.UndefinedDBError](./git-documentdb.err.undefineddberror.md) (from deleteWorker)
+- [Err.UndefinedDBError](./git-documentdb.err.undefineddberror.md)
 
-[Err.DocumentNotFoundError](./git-documentdb.err.documentnotfounderror.md) (from deleteWorker)
+- [Err.DocumentNotFoundError](./git-documentdb.err.documentnotfounderror.md)
 
-[Err.CannotDeleteDataError](./git-documentdb.err.cannotdeletedataerror.md) (from deleteWorker)
+- [Err.CannotDeleteDataError](./git-documentdb.err.cannotdeletedataerror.md)
 

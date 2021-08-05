@@ -75,21 +75,18 @@ Call open() before using DB.
 |  [insert(jsonDoc, options)](./git-documentdb.gitdocumentdb.insert.md) |  | Insert a JSON document |
 |  [insert(\_id, jsonDoc, options)](./git-documentdb.gitdocumentdb.insert_1.md) |  | Insert a JSON document |
 |  [insertFatDoc(name, doc, options)](./git-documentdb.gitdocumentdb.insertfatdoc.md) |  | Insert a data |
-|  [loadAppInfo()](./git-documentdb.gitdocumentdb.loadappinfo.md) |  | Load app-specific info from .gitddb/app.json |
 |  [loadAuthor()](./git-documentdb.gitdocumentdb.loadauthor.md) |  | Load author from .git/config |
 |  [offSyncEvent(remoteURL, event, callback)](./git-documentdb.gitdocumentdb.offsyncevent.md) |  | Remove SyncEvent handler |
 |  [offSyncEvent(sync, event, callback)](./git-documentdb.gitdocumentdb.offsyncevent_1.md) |  | Remove SyncEvent handler |
 |  [onSyncEvent(remoteURL, event, callback)](./git-documentdb.gitdocumentdb.onsyncevent.md) |  | Add SyncEvent handler |
 |  [onSyncEvent(sync, event, callback)](./git-documentdb.gitdocumentdb.onsyncevent_1.md) |  | Add SyncEvent handler |
 |  [open(openOptions)](./git-documentdb.gitdocumentdb.open.md) |  | Open or create a Git repository |
+|  [plugin(obj)](./git-documentdb.gitdocumentdb.plugin.md) | <code>static</code> |  |
 |  [put(jsonDoc, options)](./git-documentdb.gitdocumentdb.put.md) |  | Insert a JSON document if not exists. Otherwise, update it. |
 |  [put(\_id, jsonDoc, options)](./git-documentdb.gitdocumentdb.put_1.md) |  | Insert a JSON document if not exists. Otherwise, update it. |
 |  [putFatDoc(name, doc, options)](./git-documentdb.gitdocumentdb.putfatdoc.md) |  | Insert data if not exists. Otherwise, update it. |
 |  [removeSync(remoteURL)](./git-documentdb.gitdocumentdb.removesync.md) |  | Stop and unregister remote synchronization |
-|  [repository()](./git-documentdb.gitdocumentdb.repository.md) |  | Get a current repository |
-|  [saveAppInfo(info)](./git-documentdb.gitdocumentdb.saveappinfo.md) |  | Save app-specific info into .gitddb/app.json |
 |  [saveAuthor()](./git-documentdb.gitdocumentdb.saveauthor.md) |  | Save current author to .git/config |
-|  [setRepository(repos)](./git-documentdb.gitdocumentdb.setrepository.md) |  | Set repository |
 |  [sync(options)](./git-documentdb.gitdocumentdb.sync.md) |  | Synchronize with a remote repository |
 |  [sync(options, getSyncResult)](./git-documentdb.gitdocumentdb.sync_1.md) |  | Synchronize with a remote repository |
 |  [update(jsonDoc, options)](./git-documentdb.gitdocumentdb.update.md) |  | Update a JSON document |
