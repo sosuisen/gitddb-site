@@ -12,7 +12,7 @@ Use GitDocumentDB to ...
 
 :green_book: Manage JSON documents in Git repository by CRUD and collection APIs. 
 
-:rocket: Synchronize automatically with a remote repository.
+:rocket: Synchronize automatically with remote repositories.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(No need to resolve conflicts manually!)*
 
