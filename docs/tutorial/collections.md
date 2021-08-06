@@ -30,4 +30,8 @@ sidebar_position: 6
   */  
   await gitDDB.close();
 ```
-(You can find more examples in [examples/src/collection.ts](https://github.com/sosuisen/git-documentdb/blob/main/examples/src/collection.ts))
+:::note
+
+You can find more examples in [examples/src/collection.ts](https://github.com/sosuisen/git-documentdb/blob/main/examples/src/collection.ts)
+
+:::

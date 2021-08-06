@@ -11,5 +11,10 @@ sidebar_position: 4
     connection: { type: 'github', personal_access_token: 'Enter your personal access token with checked [repo]' },
   });
 ```
-(You can find more examples in [examples/src/sync.ts](https://github.com/sosuisen/git-documentdb/blob/main/examples/src/sync.ts))
+
+:::note
+
+You can find more examples in [examples/src/sync.ts](https://github.com/sosuisen/git-documentdb/blob/main/examples/src/sync.ts)
+
+:::
 
