@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Plugin
 
-GitDocumentDB extends its functions with [Plugin System](../guide/plugin).. A plugin adds a new feature to GitDocumentDB Class or changes the way to sync and merge repositories.
+GitDocumentDB extends its functions with [Plugin System](../guide/plugins/pluginsystem). A plugin adds a new feature to GitDocumentDB Class or changes the way to sync and merge repositories.
 
 ## git-documentdb-plugin-remote-nodegit
 
