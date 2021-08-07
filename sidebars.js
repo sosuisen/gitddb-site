@@ -335,11 +335,12 @@ module.exports = {
 
         'api/git-documentdb.duplicated_file_postfix',
 
+        'api/git-documentdb.file_create_timeout',
+
         'api/git-documentdb.file_remove_timeout',
 
         'api/git-documentdb.first_commit_message',
 
-        'api/git-documentdb.git_documentdb_app_info_id',
         'api/git-documentdb.git_documentdb_info_id',
         'api/git-documentdb.git_documentdb_metadata_dir',
 

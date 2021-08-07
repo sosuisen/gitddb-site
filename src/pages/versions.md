@@ -2,6 +2,12 @@
 
 A complete release history is available on [GitHub](https://github.com/sosuisen/git-documentdb/releases).
 
+## v0.4.3
+
+Retry creating a new repository in the initialize
+
+[ChangeLog](https://github.com/sosuisen/git-documentdb/releases/tag/v0.4.3)
+
 ## v0.4.1
 
 Change the default remote engine to isomorphic-git
