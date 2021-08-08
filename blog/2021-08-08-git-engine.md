@@ -10,7 +10,7 @@ tags: [git,NodeGit,isomorphic-git]
 
 Great release!
 
-GitDocumentDB v0.4.3 integrates [NodeGit](https://www.nodegit.org/) and [isomorphic-git](https://isomorphic-git.org/) by using plugin system.
+GitDocumentDB v0.4.3 integrates [NodeGit](https://www.nodegit.org/) and [isomorphic-git](https://isomorphic-git.org/) by using a plugin system.
 
 <img src="/img/git-engines.jpg" alt="git-engines" width="480px" />
 
