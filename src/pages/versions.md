@@ -2,6 +2,12 @@
 
 A complete release history is available on [GitHub](https://github.com/sosuisen/git-documentdb/releases).
 
+## v0.4.5
+
+Database-side debounce
+
+[ChangeLog](https://github.com/sosuisen/git-documentdb/releases/tag/v0.4.5)
+
 ## v0.4.4
 
 Diff and patch nested JSON object

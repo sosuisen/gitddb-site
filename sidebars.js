@@ -283,11 +283,12 @@ module.exports = {
       type: 'category', label: 'TaskQueue', items: [
         'api/git-documentdb.taskqueue',
         'api/git-documentdb.taskqueue._constructor_',
-        'api/git-documentdb.taskqueue.clear',
         'api/git-documentdb.taskqueue.currentstatistics',
         'api/git-documentdb.taskqueue.currenttaskid',
         'api/git-documentdb.taskqueue.getenqueuetime',
         'api/git-documentdb.taskqueue.length',
+        'api/git-documentdb.taskqueue.start',
+        'api/git-documentdb.taskqueue.stop',
       ]
     },
 
