@@ -19,12 +19,12 @@ sidebar_position: 5
   */
   await gitDDB.put({ _id: 'nara/nara_park', flower: 'double cherry blossoms' });
   await gitDDB.put({ _id: 'nara/tsukigase', flower: 'Japanese apricot' });
-  await gitDDB.put({ _id: 'yoshino/mt_yoshino', flower: 'cherry blossoms' });
+  await gitDDB.put({ _id: 'yoshino/mt_yoshino', flower: 'awesome cherry blossoms' });
 
   // Read
   const flowerInYoshino = await gitDDB.get('yoshino/mt_yoshino');
   console.log(flowerInYoshino);
-  // log:: { flower: 'cherry blossoms', _id: 'yoshino/mt_yoshino' }
+  // log:: { flower: 'awesome cherry blossoms', _id: 'yoshino/mt_yoshino' }
 
   /**
    * Prefix search

@@ -11,6 +11,7 @@ $ npm i
 $ npm start
 $ npm run sync
 $ npm run collection
+$ npm run plugin
 ```
 
 # Continuous Deployment (CD) using GitDocumentDB

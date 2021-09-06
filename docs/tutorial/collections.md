@@ -12,12 +12,12 @@ sidebar_position: 6
   const yoshino = gitDDB.collection('yoshino');
   await nara.put({ _id: 'nara_park', flower: 'double cherry blossoms' });
   await nara.put({ _id: 'tsukigase', flower: 'Japanese apricot' });
-  await yoshino.put({ _id: 'mt_yoshino', flower: 'cherry blossoms' });
+  await yoshino.put({ _id: 'mt_yoshino', flower: 'awesome cherry blossoms' });
 
   // Read
   const flowerInYoshinoCollection = await yoshino.get('mt_yoshino');
   console.log(flowerInYoshinoCollection);
-  // { flower: 'cherry blossoms', _id: 'mt_yoshino' }
+  // { flower: 'awesome cherry blossoms', _id: 'mt_yoshino' }
 
   // Read all the documents in nara collection
   const flowersInNaraCollection = await nara.find();

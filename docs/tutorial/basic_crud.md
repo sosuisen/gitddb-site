@@ -57,4 +57,17 @@ Notice that you need 'async' to use 'await'. If you are first to learn asynchron
    console.log(`\n_id of the JSON document is automatically generated`);
    console.log(apple);
    // log: { name: 'apple', _id: 'XXXXXXXXXXXXXXXXXXXXXXXXXX' } 
+
+   /**
+   * Set namePrefix to add a prefix to an auto-generated _id
+   */
+   const gitDDBPrefix = new GitDocumentDB({
+     dbName: 'db_prefix',
+     namePrefix: 'fruit_',
+   });
+   await gitDDBPrefix.open();
+   const fruitAppleResult = await gitDDBPrefix.put({ name: 'apple' });
+   const fruitApple = await gitDDBPrefix.get(fruitAppleResult._id);
+   console.log(fruitApple);
+   // log: { name: 'apple', _id: 'fruit_XXXXXXXXXXXXXXXXXXXXXXXXXX' }
 ```
