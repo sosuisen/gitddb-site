@@ -110,6 +110,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 'ALL', // Set ALL while posts are a few.
           // Please change this to your repo.
           editUrl:
             'https://github.com/sosuisen/gitddb-site/edit/main/',
