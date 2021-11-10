@@ -16,6 +16,8 @@ It is a NodeGit remote engine. It supports SSH keys and [PATs](https://docs.gith
 ```typescript
 npm i git-documentdb-plugin-remote-nodegit
 ```
+If you get an error while installing the plugin, see [the build section](../guide/build).
+
 Load NodeGit remote engine plugin before creating a GitDocumentDB instance.
 
 ```typescript
