@@ -130,8 +130,11 @@ module.exports = {
             'api/git-documentdb.gitdocumentdb.localdir',
             'api/git-documentdb.gitdocumentdb.logger',
             'api/git-documentdb.gitdocumentdb.loglevel',
+            'api/git-documentdb.gitdocumentdb.logtotransport',
             'api/git-documentdb.gitdocumentdb.schema',
+            'api/git-documentdb.gitdocumentdb.serializeformat',
             'api/git-documentdb.gitdocumentdb.taskqueue',
+            'api/git-documentdb.gitdocumentdb.tslogger',
             'api/git-documentdb.gitdocumentdb.validator',
             'api/git-documentdb.gitdocumentdb.workingdir'
           ]
@@ -266,6 +269,7 @@ module.exports = {
             'api/git-documentdb.sync.jsonpatch',
             'api/git-documentdb.sync.options',
             'api/git-documentdb.sync.remoteurl',
+            'api/git-documentdb.sync.runbeforelivesync',
           ]
         },
 
@@ -346,7 +350,8 @@ module.exports = {
         'api/git-documentdb.git_documentdb_info_id',
         'api/git-documentdb.git_documentdb_metadata_dir',
 
-        'api/git-documentdb.json_ext',
+        'api/git-documentdb.json_postfix',
+        'api/git-documentdb.front_matter_postfix',
 
         'api/git-documentdb.max_file_path_length',
 
@@ -411,7 +416,7 @@ module.exports = {
 
         'api/git-documentdb.icollection',
 
-        'api/git-documentdb.jsondiffoptions',
+        'api/git-documentdb.jsondiffpatchoptions',
         'api/git-documentdb.jsondoc',
         'api/git-documentdb.jsondocmetadata',
 
@@ -429,6 +434,7 @@ module.exports = {
         'api/git-documentdb.remoteoptions',
 
         'api/git-documentdb.schema',
+        'api/git-documentdb.serializeformatlabel',
         'api/git-documentdb.synccallback',
         'api/git-documentdb.syncchangecallback',
         'api/git-documentdb.synccombinedatabasecallback',

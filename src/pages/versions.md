@@ -2,11 +2,17 @@
 
 A complete release history is available on [GitHub](https://github.com/sosuisen/git-documentdb/releases).
 
-## v0.4.5 (Sep 6th, 2021)
+## v0.4.7 (May 10th, 2022)
+
+Add Front-Matter-Markdown format to serialize JSON object
+
+[ChangeLog](https://github.com/sosuisen/git-documentdb/releases/tag/v0.4.7)
+
+## v0.4.6 (Sep 8th, 2021)
 
 Database-side debounce
 
-[ChangeLog](https://github.com/sosuisen/git-documentdb/releases/tag/v0.4.5)
+[ChangeLog](https://github.com/sosuisen/git-documentdb/releases/tag/v0.4.6)
 
 ## v0.4.4 (Aug 24th, 2021)
 
