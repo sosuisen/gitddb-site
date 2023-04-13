@@ -2,6 +2,12 @@
 
 A complete release history is available on [GitHub](https://github.com/sosuisen/git-documentdb/releases).
 
+## v0.4.8 (April 13th, 2023) 
+
+Bug fixes
+
+[ChangeLog](https://github.com/sosuisen/git-documentdb/releases/tag/v0.4.8)
+
 ## v0.4.7 (May 10th, 2022)
 
 Add Front-Matter-Markdown format to serialize JSON object
